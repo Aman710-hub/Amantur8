@@ -1,0 +1,183 @@
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+  color: white;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Title Saction */
+#title {
+  background-color: #ff4c68;
+  padding: 3% 15%;
+}
+
+
+
+.nav-item {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.nav-brand {
+  font-size: 40px;
+  font-family: 'Righteous', cursive;
+}
+
+.navbar {
+  padding: 0 0 80px 0;
+}
+
+.title-text button {
+  margin: 30px 10px 0 0;
+}
+
+.title-text i {
+  padding-right: 8px;
+}
+
+.title-text {
+  text-align: left;
+  margin-bottom: 120px;
+}
+
+.phone-img {
+  position: absolute;
+  right: 340px;
+  top: 190px;
+  width: 20%;
+  transform: rotate(25deg);
+}
+
+/* Features Saction */
+#features {
+  position: relative;
+  z-index: 1;
+  padding: 9% 15%;
+  background-color: white;
+  text-align: center;
+}
+
+.features-icon {
+  font-size: 4rem;
+  color: #ef8171;
+  padding-bottom: 10px;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 7% 12%;
+  background-color: #ef8171;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 13%;
+  margin: 15px 10px 0 0;
+}
+
+.carousel-div {
+  padding-bottom: 70px;
+}
+
+.carousel-item {
+  padding: 1% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8171;
+  text-align: center;
+}
+
+.press-img {
+  width: 13%;
+  margin: 50px 40px 80px 0;
+}
+
+/* Pricing Section*/
+#pricing {
+  text-align: center;
+  padding: 7% 7%;
+}
+
+.pricing-colomns {
+  margin: 6% 3% 8% 3%;
+}
+
+/* Call to Action Section  */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 15%;
+  color: white;
+}
+
+#cta h3 {
+  font-size: 3rem;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+#cta button {
+  margin: 4% 1%;
+}
+
+#cta i {
+  padding-right: 8px;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 7%;
+  text-align: center;
+}
+
+.footer-icons {
+  padding-right: 15px;
+}
+
+
+/* Media Query Section */
+
+@media (max-width: 1125px)  {
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  .title-text {
+    text-align: center;
+    margin-bottom: 40px;;
+  }
+
+ h1{
+   text-align: center;
+ }
+
+  .col-lg-6 {
+ text-align: center;
+  }
+
+  .features-col{
+    padding-top: 20px;
+  }
+}
